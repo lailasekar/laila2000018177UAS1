@@ -1,0 +1,317 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+body{
+    background-image: url(bu1.jpg);
+    position: relative;
+    width: 70%;
+    height: 80%;
+    margin: auto;
+    background-position: center;
+}
+.menu-malasngoding{
+    background-color: #3141ff;
+}
+
+.menu-malasngoding ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.menu-malasngoding > ul > li {
+    float: left;
+}
+
+
+.menu-malasngoding li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu-malasngoding li a:hover{
+    background-color: #2525ff;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown:hover .isi-dropdown {
+    display: block;
+}
+
+.isi-dropdown a:hover {
+    color: #fff !important;
+}
+
+.isi-dropdown {
+    position: absolute;
+    display: none;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    background-color: #f9f9f9;
+}
+.isi-dropdown a {
+    color: #3c3c3c !important;
+}
+.isi-dropdown a:hover {
+    color: #232323 !important;
+    background-color:#d35400;
+}
+.banner {
+    position: center;
+    font-size: 35px;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#tabel1 {
+    position: relative;
+	background:-webkit-linear-gradient(center, rgb(235, 236, 220),#8bc4b1);
+	box-shadow: 1px 2px 10px rgb(24, 0, 0);
+	height: 420px;
+	margin: 5rem auto 8.1rem auto;
+	width: 410px;
+    position: center;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#tabel2 {
+    position: relative;
+	background:-webkit-linear-gradient(center, rgb(235, 236, 220),#8bc4b1);
+	height: 400px;
+	margin: 5rem auto 8.1rem auto;
+	width: 300px;
+    display : flex;
+    justify-content: right;
+    align-items: right;
+    color: white;
+   
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 50px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid;
+    transition: 0.6s;
+    margin-top: 10px;
+}
+ul li a:hover{
+    background-color: #fff;
+    color: blackb;
+}
+ul l.active a{
+    background-color: #fff;
+    color:black;
+}
+.kepala .jdl{
+    color: white;
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+       
+}
+ .jdl{
+    color : white;
+    font-size: 20px;
+ }
+ .kepala .menu {
+    height: 40px;
+    color: white;
+}
+.data5{
+    color: white;
+    position: center;
+}
+.data6{
+    color: white;
+    margin-top: 100px;
+    text-align: center;
+}
+.data6 button{
+    text-decoration: none;
+    background-color: #fff;
+    color:black;
+    padding: 5px 20px;
+    border: 1px solid;
+    transition: 0.6s;
+    margin-top: 10px;
+    display: flexbox;
+}
+.jeruk {
+	float: left;
+	padding: 30px;
+	width: 820px;
+	height: 190px;
+	margin: auto;
+	background-color: rgba(121, 5, 59, 0.918);;
+	border: 10px double rgb(235, 195, 17);
+    color : white;
+}
+.tamu{
+    color: white;
+	float: left;
+	padding: 30px;
+	width: 840px;
+	height: 300px;
+	margin: auto;
+	background-color: rgba(121, 5, 59, 0.918);;
+}
+input[value=uploud]{
+	margin: 5px auto;
+	padding: 10px;
+	width: 150px;
+	border: 1px solid rgb(241, 207, 13);
+	background-color: rgb(231, 210, 24);
+	cursor: pointer;
+}
+input[value=kirim]{
+	margin: 5px auto;
+	padding: 10px;
+	width: 100px;
+	border:  1px solid black;
+	background-color: green;
+	cursor: pointer;
+}
+input[value=batal]{
+	margin: 5px auto;
+	padding: 10px;
+	width: 100px;
+	border:  1px solid black;
+	background-color: green;
+	cursor: pointer;
+}
+.lihat{
+    background-image: url(bu1.jpg);
+    position: relative;
+    width: 70%;
+    height: 50%;
+    margin: auto;
+    background-position: center;
+    color: white;
+}
+.proses{
+    color : white;
+    background-image: url(bu1.jpg);
+    position: relative;
+    width: 70%;
+    height: 50%;
+    margin: auto;
+    background-position: center;
+}
+.belanja{
+    color : white;
+    font-size : 25px;
+}
+.barang{
+    color : white;
+}
+  .login {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-30%, -50%);
+    background: rgba(4, 29, 23, 0.5);
+    padding: 50px;
+    width: 270px;
+    box-shadow: 0px 0px 25px 10px black;
+    border-radius: 15px;
+  }
+  .avatar {
+    font-size: 30px ;
+    background: #E59866;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    position: fixed;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 50%;
+  }
+  .login h2 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    padding-top: 0;
+    margin-top: -20px;
+  }
+  .box-login {
+    display: flex;
+    justify-content:space-between;
+    margin: 10px;
+    border-bottom: 2px solid white;
+    padding: 8px 0;
+  }
+  .box-login i {
+    font-size: 23px;
+    color: white;
+    padding: 5px 0;
+  }
+  .box-login input {
+    width: 85%;
+    padding: 5px 0;
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 18px;
+  }
+  .box-login input::placeholder {
+    color: white;
+  }
+  .btn-login
+  .box-login input:hover{
+    background: rgba(10, 10, 10,s 0.5);
+  }
+  .btn-login {
+    margin-left: 10px;
+    margin-bottom: 20px;
+    background: none;
+    border: 1px solid white;
+    width: 92.5%;
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 3px;
+    cursor: pointer;
+    }
+  .btn-login:hover{
+    background: rgba(12, 30, 15, 0.5);
+  }
+  .bottom {
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .bottom a {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+  }
+  .bottom a:hover {
+  text-decoration: underline;
+  }
